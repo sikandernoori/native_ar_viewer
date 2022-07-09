@@ -1,7 +1,7 @@
 name: native_ar_viewer
-description: A new Flutter plugin project.
+description: A flutter plugin to quickly view 3D models in AR in Flutter using Android SCENE VIEW and IOS QUICK LOOK.
 version: 0.0.1
-homepage:
+homepage: https://github.com/sikandernoori/native_ar_viewer
 
 environment:
   sdk: ">=2.17.1 <3.0.0"
