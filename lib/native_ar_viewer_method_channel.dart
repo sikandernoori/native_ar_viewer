@@ -15,6 +15,6 @@ class MethodChannelNativeArViewer extends NativeArViewerPlatform {
         queryParameters: <String, dynamic>{'file': url, 'mode': 'ar_only'});
 
     return await methodChannel.invokeMethod<bool>('launchAR',
-        <String, dynamic>{'data': Platform.isAndroid ? data.toString() : url});
+        Platform.isAndroid ? <String, dynamic>{'data': data.toString()} : url);
   }
 }

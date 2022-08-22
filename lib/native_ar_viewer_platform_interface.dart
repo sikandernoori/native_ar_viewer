@@ -16,7 +16,5 @@ abstract class NativeArViewerPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<bool?> launchAR(String url) {
-    throw UnimplementedError('platformVersion() has not been implemented.');
-  }
+  Future<bool?> launchAR(String url);
 }
